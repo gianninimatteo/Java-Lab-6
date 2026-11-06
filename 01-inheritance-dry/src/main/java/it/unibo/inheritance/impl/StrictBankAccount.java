@@ -66,6 +66,7 @@ public class StrictBankAccount implements BankAccount {
         return this.id == id;
     }
 
+    //Controlla se il saldo è sufficiente per effettuare il prelievo (balance >= amount).
     private boolean isWithdrawAllowed(final double amount) {
         return balance >= amount;
     }
