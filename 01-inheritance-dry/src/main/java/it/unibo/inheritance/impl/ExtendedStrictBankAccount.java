@@ -1,6 +1,6 @@
 package it.unibo.inheritance.impl;
 
-public class ExtendedStrictBankAccount extends SimpleBankAccount {
+public class ExtendedStrictBankAccount extends SimpleBankAccount { // Ereditarietà
 
     public ExtendedStrictBankAccount(final int id, final double balance) {
         super(id, balance);
@@ -17,7 +17,7 @@ public class ExtendedStrictBankAccount extends SimpleBankAccount {
     // La sintassi per richiamare un metodo della classe padre è sempre 'super.metodo(parametri)'.
     public void withdraw(final int id, final double amount) {
         if (isWithdrawAllowed(amount)) {
-            super.withdraw(id, amount);
+            super.withdraw(id, -amount);
         }
     }
 
