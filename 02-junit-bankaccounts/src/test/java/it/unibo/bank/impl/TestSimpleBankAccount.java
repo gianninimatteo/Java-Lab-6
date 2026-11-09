@@ -48,7 +48,7 @@ class TestSimpleBankAccount {
     @Test
     void testBankAccountDeposit() {
         for (int i = 0; i < 10;) {
-            assertEquals(i, bankAccount.getTransactionsCount());
+            assertEquals(i, bankAccount.getTransactionsCount()); // assertEquals() serve a verificare che due valori siano uguali.
             assertEquals(i * AMOUNT, bankAccount.getBalance());
             bankAccount.deposit(mRossi.getUserID(), AMOUNT);
             i++;
