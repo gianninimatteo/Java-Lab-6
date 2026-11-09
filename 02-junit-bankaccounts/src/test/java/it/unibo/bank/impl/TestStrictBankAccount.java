@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail; //metodo di JUnit che serve a far fallire volontariamente un test (non usato).
+//import static org.junit.jupiter.api.Assertions.fail; //metodo di JUnit che serve a far fallire volontariamente un test (non usato).
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
