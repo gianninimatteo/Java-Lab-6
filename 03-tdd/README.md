@@ -4,7 +4,7 @@ Use the *Test-Driven Development (TDD)* methodology to develop the following.
 
 ## 1. Fizz Buzz
 
-**Goal**: Write a program that returns the numbers from 1 to 100. But for multiples of three return "Fizz" instead of the number and for the multiples of five return "Buzz". For numbers which are multiples of both three and five return "FizzBuzz".
+**Goal**: Scrivi un programma che restituisca i numeri da 1 a 100. Tuttavia, per i multipli di tre restituisci “Fizz” al posto del numero, mentre per i multipli di cinque restituisci ‘Buzz’. Per i numeri che sono multipli sia di tre che di cinque, restituisci “FizzBuzz”.
 
 Sample output
 
@@ -35,25 +35,25 @@ Sample output
 
 #### New requirements
 
- - A number is Fizz if it has a 3 in it
- - A number is Buzz if it has a 5 in it
- - A number is FizzBuzz if
- 	- it has a 3 in it, and
- 	- it has a 5 in it
+ - Un numero è “Fizz” se contiene un 3
+ - Un numero è “Buzz” se contiene un 5
+ - Un numero è “FizzBuzz” se
+     - contiene un 3 e
+     - contiene un 5
 
- - The previous requirements are still correct.
+ - I requisiti precedenti sono ancora validi.
 
 
 ## 2. Password validator
 
-**Goal**: design a "password validator" component using TDD.
+**Goal**: Progettare un componente “validatore di password” utilizzando il TDD.
 
-For instance, you could configure a password validator to check that a user password:
+Ad esempio, potresti configurare un validatore di password per verificare che la password di un utente:
 
-	 - Has more than 8 characters
-	 - Contains a capital letter
-	 - Contains a lowercase
-	 - Contains a number
-	 - Contains an underscore
+	 - Contiene più di 8 caratteri
+     - Contiene una lettera maiuscola
+     - Contiene una lettera minuscola
+     - Contiene un numero
+     - Contiene un trattino basso
 
-Start simple and then make your design more reusable by applying OOP principles and patterns.
+Inizia in modo semplice e poi rendi il tuo progetto più riutilizzabile applicando i principi e i modelli della programmazione orientata agli oggetti (OOP).
